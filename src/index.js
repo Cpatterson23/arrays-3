@@ -16,6 +16,6 @@ function myName(name) {
     myListDiv.appendChild(h1);
 }
 
-const trueFalse = myBooleans.reverse.map(bool => !bool )
+const trueFalse = myBooleans.map(bool => !bool )
 
 trueFalse.forEach( number=> console.log(number));
